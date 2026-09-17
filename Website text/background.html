@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS背景属性</title>
+    <style>
+        .box1{
+            background-color: aqua;
+            width: 1520px;
+            height: 685px;
+            background-image: url("sakuraba\ ema.jpg");
+            background-repeat: no-repeat;
+            background-size:2000px;
+            background-position:10% 1%;
+        }
+        .nav{
+            height: 40px;
+            background:linear-gradient(rgb(20, 120, 208),rgb(128, 200, 255));
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        .navlist li{
+            float: left;
+            height: 40px;
+            width: 100px;
+            line-height:40px;
+            text-align: center;
+        }
+        .navlist a{
+            color: azure;
+        }
+        .navlist{
+            width: 800px;
+            margin: auto;
+        }
+        .navlist a:hover{
+            background: #eef8ff;;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="navlist">
+            <li><a href="">123</a></li>
+            <li><a href="">234</a></li>
+            <li><a href="">123</a></li>
+            <li><a href="">234</a></li>
+            <li><a href="">123</a></li>
+        </ul>
+    </div>
+    <div class="box1"></div>
+</body>
+</html>
